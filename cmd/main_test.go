@@ -16,6 +16,11 @@ func Test_hoge(t *testing.T) {
 			args: args{v: ""},
 			want: "empty",
 		},
+		{
+			name: "s",
+			args: args{v: "s"},
+			want: "s",
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
