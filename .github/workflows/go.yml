@@ -13,6 +13,7 @@ permissions:
   actions: write
   checks: write
   contents: write
+  issues: write
 
 jobs:
 
