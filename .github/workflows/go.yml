@@ -22,7 +22,7 @@ jobs:
         go-version: '1.23'
 
     - name: Build
-      run: go build -v ./...
+      run: go build -o main -v ./...
 
     - uses: gwatts/go-coverage-action@v2
       id: coverage
