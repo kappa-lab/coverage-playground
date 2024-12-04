@@ -1,4 +1,4 @@
-package cmd
+package main
 
 import "testing"
 
@@ -15,6 +15,11 @@ func Test_hoge(t *testing.T) {
 			name: "empty",
 			args: args{v: ""},
 			want: "empty",
+		},
+		{
+			name: "s",
+			args: args{v: "s"},
+			want: "s",
 		},
 	}
 	for _, tt := range tests {
